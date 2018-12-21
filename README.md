@@ -8,7 +8,7 @@ ReactJS로 웹 서비스 만들기
 2. promise는 asynchronous(비동기식) 프로그래밍이다.
 3. 비동기식 프로그래밍이 좋은 이유는 다른 작업을 스케쥴해놓을 수 있기 때문이다.
 4. fetch는 url을 ajax로 심플하게 불러올 수 있다.
-
+<br>
 * Await, Async
 1. promise 라인들을 조금 더 분명하게 작성해 주는 도구이다.
 2. Await와 Async를 쓰는 이유는 애플리케이션이 커지면 then 안에 then으로 이어지면서 call back hell에 빠지기 때문이다.
