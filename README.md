@@ -20,7 +20,8 @@ componentDidMount() {
 - 위와 같이 function을 쓰는 이유는,
      1. componentDidMount가 커지지 않도록 하기 위해(사이즈가 크면 좋은 코딩 방법이 아님)
      2. 많은 코드가 한군데에 몰아있는 것 보다는, 작은 function들이 각기 다른 장소에 있는 것이 좋다.
-<pre><code>componentDidMount() {
+```javascript
+componentDidMount() {
     this._getMovies();
 }
 
@@ -34,8 +35,7 @@ _callApi = () => {
     .then(json => console.log(json))
     .catch(err => console.log(err))
 }
-</code></pre>
-
+```
 - 위
 
 <br><br>
