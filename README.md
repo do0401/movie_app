@@ -22,6 +22,7 @@ ReactJS로 웹 서비스 만들기
 componentDidMount() {
     this._getMovies();
 }
+
 async _getMovies = () => {
     const movies = await this._callApi()
 }
@@ -34,7 +35,7 @@ _callApi = () => {
 }
 </code></pre>
 
-
+- 위
 
 <br><br>
 ---
