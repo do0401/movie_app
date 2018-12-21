@@ -13,8 +13,8 @@ ReactJS로 웹 서비스 만들기
 1. promise 라인들을 조금 더 분명하게 작성해 주는 도구이다.
 2. Await와 Async를 쓰는 이유는 애플리케이션이 커지면 then 안에 then으로 이어지면서 call back hell에 빠지기 때문이다.
 3. 아래와 같이 function을 쓰는 이유는,
-  * componentDidMount가 커지지 않도록 하기 위해(사이즈가 크면 좋은 코딩 방법이 아님)<br>
-  * 많은 코드가 한군데에 몰아있는 것 보다는, 작은 function들이 각기 다른 장소에 있는 것이 좋다.<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * componentDidMount가 커지지 않도록 하기 위해(사이즈가 크면 좋은 코딩 방법이 아님)<br>
+&nbsp;&nbsp;&nbsp;&nbsp; * 많은 코드가 한군데에 몰아있는 것 보다는, 작은 function들이 각기 다른 장소에 있는 것이 좋다.<br>
 <pre><code>componentDidMount() {
     this._getMovies();
 }</code></pre>
