@@ -1,7 +1,13 @@
-## ReactJS로 웹 서비스 만들기
+ReactJS로 웹 서비스 만들기
+=========================
 이 프로젝트는 [Nomad Coders](https://academy.nomadcoders.co/)의 니콜라스님 강의를 토대로 진행했습니다.
 
-### `3일차`
+## `3일차`
+* Promise<br>
+1. promise는 새로운 Javascript 컨셉이다.
+2. promise는 asynchronous(비동기식) 프로그래밍이다.
+3. 비동기식 프로그래밍이 좋은 이유는 다른 작업을 스케쥴해놓을 수 있기 때문이다.
+4. fetch는 url을 ajax로 심플하게 불러올 수 있다.
 
 
 
