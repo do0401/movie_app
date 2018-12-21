@@ -1,7 +1,7 @@
 ## ReactJS로 웹 서비스 만들기
 이 프로젝트는 [Nomad Coders](https://academy.nomadcoders.co/)의 니콜라스님 강의를 토대로 진행했습니다.
 
-### `3일차`
+### *3일차
 
 
 
